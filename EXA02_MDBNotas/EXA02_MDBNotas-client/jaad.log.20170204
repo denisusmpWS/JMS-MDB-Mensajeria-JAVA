@@ -1,0 +1,31 @@
+13:37:36,417 [main      ] INFO  (mdb.MDBNotasClient:67) Error en sender
+com.sun.messaging.jms.MessageFormatException: [C4014]: Serialize message failed. - cause: java.io.NotSerializableException: edu.cibertec.jaad.mdb.Curso
+	at com.sun.messaging.jmq.jmsclient.ObjectMessageImpl.setObject(ObjectMessageImpl.java:177)
+	at com.sun.messaging.jmq.jmsclient.SessionImpl.createObjectMessage(SessionImpl.java:2123)
+	at com.sun.messaging.jms.ra.SessionAdapter.createObjectMessage(SessionAdapter.java:208)
+	at edu.cibertec.jaad.mdb.MDBNotasClient.SendMessage(MDBNotasClient.java:54)
+	at edu.cibertec.jaad.mdb.MDBNotasClient.main(MDBNotasClient.java:73)
+Caused by: java.io.NotSerializableException: edu.cibertec.jaad.mdb.Curso
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1183)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:347)
+	at java.util.ArrayList.writeObject(ArrayList.java:742)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:988)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1495)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1431)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1547)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1508)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1431)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:347)
+	at com.sun.messaging.jmq.jmsclient.ObjectMessageImpl.setObject(ObjectMessageImpl.java:162)
+	... 4 more
+13:38:06,624 [main      ] INFO  (mdb.MDBNotasClient:58) MENSAJE ENVIADO:[Nota [notaFinal=0, codigoAlumno=A51474, codigoCurso=C34334, nombreCurso=Matematica, ciclo=34, lstCurso=[Curso [nota=3], Curso [nota=13], Curso [nota=15], Curso [nota=20]]]]
+13:38:33,240 [main      ] INFO  (mdb.MDBNotasClient:58) MENSAJE ENVIADO:[Nota [notaFinal=0, codigoAlumno=A51474, codigoCurso=C34334, nombreCurso=Matematica, ciclo=34, lstCurso=[Curso [nota=3], Curso [nota=13], Curso [nota=15], Curso [nota=20]]]]
+13:42:54,464 [main      ] INFO  (mdb.MDBNotasClient:58) MENSAJE ENVIADO:[Nota [notaFinal=0, codigoAlumno=A51474, codigoCurso=C34334, nombreCurso=Matematica, ciclo=34, lstCurso=[Curso [nota=14], Curso [nota=18], Curso [nota=1], Curso [nota=17]]]]
+13:44:19,738 [main      ] INFO  (mdb.MDBNotasClient:58) MENSAJE ENVIADO:[Nota [notaFinal=0, codigoAlumno=A51474, codigoCurso=C34334, nombreCurso=Matematica, ciclo=34, lstCurso=[Curso [nota=15], Curso [nota=12], Curso [nota=9], Curso [nota=10]]]]
+13:45:47,934 [main      ] INFO  (mdb.MDBNotasClient:60) -------MENSAJE ENVIADO--------

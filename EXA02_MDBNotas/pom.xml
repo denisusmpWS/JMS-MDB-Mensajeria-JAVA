@@ -1,0 +1,14 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>edu.cibertec.jaad</groupId>
+   <version>1.0-SNAPSHOT</version>
+   <artifactId>EXA02_MDBNotas</artifactId>
+   <packaging>pom</packaging>
+   <name>EXA02_MDBNotas</name>
+   <modules>
+      <module>EXA02_MDBNotas-server</module>
+      <module>EXA02_MDBNotas-ear</module>
+      <module>EXA02_MDBNotas-client</module>
+   </modules>
+</project>
