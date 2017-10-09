@@ -1,0 +1,156 @@
+21:16:48,479 [main      ] INFO  (jms.JMSSender:46) Mensaje Enviado =[
+Class:			com.sun.messaging.jmq.jmsclient.ObjectMessageImpl
+getJMSMessageID():	ID:38-192.168.3.26(91:a2:c4:bb:79:a8)-57341-1485569808443
+getJMSTimestamp():	1485569808443
+getJMSCorrelationID():	null
+JMSReplyTo:		null
+JMSDestination:		JAADQueue
+getJMSDeliveryMode():	PERSISTENT
+getJMSRedelivered():	false
+getJMSType():		null
+getJMSExpiration():	0
+getJMSPriority():	4
+Properties:		null]
+05:56:28,259 [main      ] INFO  (jms.JMSReceiver:40) Mensaje RECIBIDO=[null]
+05:56:28,266 [main      ] ERROR (jms.JMSReceiver:55) Error al procesar la metadata
+java.lang.NullPointerException
+	at edu.cibertec.jaad.jms.JMSReceiver.main(JMSReceiver.java:42)
+05:56:29,015 [main      ] INFO  (jms.JMSSender:47) Mensaje Enviado =[
+Class:			com.sun.messaging.jmq.jmsclient.ObjectMessageImpl
+getJMSMessageID():	ID:38-192.168.56.1(ed:2c:89:3c:b4:cb)-49799-1486119388973
+getJMSTimestamp():	1486119388973
+getJMSCorrelationID():	null
+JMSReplyTo:		null
+JMSDestination:		JAADQueue
+getJMSDeliveryMode():	PERSISTENT
+getJMSRedelivered():	false
+getJMSType():		null
+getJMSExpiration():	0
+getJMSPriority():	4
+Properties:		null]
+05:56:56,065 [main      ] INFO  (jms.JMSSender:47) Mensaje Enviado =[
+Class:			com.sun.messaging.jmq.jmsclient.ObjectMessageImpl
+getJMSMessageID():	ID:38-192.168.56.1(80:12:d2:16:4a:a0)-49830-1486119416063
+getJMSTimestamp():	1486119416063
+getJMSCorrelationID():	null
+JMSReplyTo:		null
+JMSDestination:		JAADQueue
+getJMSDeliveryMode():	PERSISTENT
+getJMSRedelivered():	false
+getJMSType():		null
+getJMSExpiration():	0
+getJMSPriority():	4
+Properties:		null]
+05:57:06,717 [main      ] INFO  (jms.JMSReceiver:40) Mensaje RECIBIDO=[
+Class:			com.sun.messaging.jmq.jmsclient.ObjectMessageImpl
+getJMSMessageID():	ID:38-192.168.56.1(ed:2c:89:3c:b4:cb)-49799-1486119388973
+getJMSTimestamp():	1486119388973
+getJMSCorrelationID():	null
+JMSReplyTo:		null
+JMSDestination:		JAADQueue
+getJMSDeliveryMode():	PERSISTENT
+getJMSRedelivered():	true
+getJMSType():		null
+getJMSExpiration():	0
+getJMSPriority():	4
+Properties:		null]
+05:57:06,724 [main      ] INFO  (jms.JMSReceiver:44) Profesor RECIBIDO=[Profesor [nombre=Alan, dni=004]]
+05:59:12,596 [main      ] INFO  (jms.JMSSender:47) Mensaje Enviado =[
+Class:			com.sun.messaging.jmq.jmsclient.ObjectMessageImpl
+getJMSMessageID():	ID:38-192.168.56.1(cc:1:92:a2:a5:f0)-49894-1486119552594
+getJMSTimestamp():	1486119552594
+getJMSCorrelationID():	null
+JMSReplyTo:		null
+JMSDestination:		JAADQueue
+getJMSDeliveryMode():	PERSISTENT
+getJMSRedelivered():	false
+getJMSType():		null
+getJMSExpiration():	0
+getJMSPriority():	4
+Properties:		null]
+05:59:33,346 [main      ] INFO  (jms.JMSSender:47) Mensaje Enviado =[
+Class:			com.sun.messaging.jmq.jmsclient.ObjectMessageImpl
+getJMSMessageID():	ID:38-192.168.56.1(e9:44:4:62:39:45)-49925-1486119573343
+getJMSTimestamp():	1486119573343
+getJMSCorrelationID():	null
+JMSReplyTo:		null
+JMSDestination:		JAADQueue
+getJMSDeliveryMode():	PERSISTENT
+getJMSRedelivered():	false
+getJMSType():		null
+getJMSExpiration():	0
+getJMSPriority():	4
+Properties:		null]
+06:00:01,065 [main      ] INFO  (jms.JMSSender:47) Mensaje Enviado =[
+Class:			com.sun.messaging.jmq.jmsclient.ObjectMessageImpl
+getJMSMessageID():	ID:38-192.168.56.1(eb:a2:56:ec:6a:ad)-49956-1486119601063
+getJMSTimestamp():	1486119601063
+getJMSCorrelationID():	null
+JMSReplyTo:		null
+JMSDestination:		JAADQueue
+getJMSDeliveryMode():	PERSISTENT
+getJMSRedelivered():	false
+getJMSType():		null
+getJMSExpiration():	0
+getJMSPriority():	4
+Properties:		null]
+06:00:16,087 [main      ] INFO  (jms.JMSReceiver:40) Mensaje RECIBIDO=[
+Class:			com.sun.messaging.jmq.jmsclient.ObjectMessageImpl
+getJMSMessageID():	ID:38-192.168.56.1(80:12:d2:16:4a:a0)-49830-1486119416063
+getJMSTimestamp():	1486119416063
+getJMSCorrelationID():	null
+JMSReplyTo:		null
+JMSDestination:		JAADQueue
+getJMSDeliveryMode():	PERSISTENT
+getJMSRedelivered():	false
+getJMSType():		null
+getJMSExpiration():	0
+getJMSPriority():	4
+Properties:		null]
+06:00:16,093 [main      ] INFO  (jms.JMSReceiver:44) Profesor RECIBIDO=[Profesor [nombre=Alan, dni=004]]
+06:00:26,860 [main      ] INFO  (jms.JMSReceiver:40) Mensaje RECIBIDO=[
+Class:			com.sun.messaging.jmq.jmsclient.ObjectMessageImpl
+getJMSMessageID():	ID:38-192.168.56.1(cc:1:92:a2:a5:f0)-49894-1486119552594
+getJMSTimestamp():	1486119552594
+getJMSCorrelationID():	null
+JMSReplyTo:		null
+JMSDestination:		JAADQueue
+getJMSDeliveryMode():	PERSISTENT
+getJMSRedelivered():	false
+getJMSType():		null
+getJMSExpiration():	0
+getJMSPriority():	4
+Properties:		null]
+06:00:26,867 [main      ] INFO  (jms.JMSReceiver:44) Profesor RECIBIDO=[Profesor [nombre=Alan, dni=001]]
+06:00:40,197 [main      ] INFO  (jms.JMSReceiver:40) Mensaje RECIBIDO=[
+Class:			com.sun.messaging.jmq.jmsclient.ObjectMessageImpl
+getJMSMessageID():	ID:38-192.168.56.1(e9:44:4:62:39:45)-49925-1486119573343
+getJMSTimestamp():	1486119573343
+getJMSCorrelationID():	null
+JMSReplyTo:		null
+JMSDestination:		JAADQueue
+getJMSDeliveryMode():	PERSISTENT
+getJMSRedelivered():	false
+getJMSType():		null
+getJMSExpiration():	0
+getJMSPriority():	4
+Properties:		null]
+06:00:40,205 [main      ] INFO  (jms.JMSReceiver:44) Profesor RECIBIDO=[Profesor [nombre=Denis, dni=002]]
+06:00:52,158 [main      ] INFO  (jms.JMSReceiver:40) Mensaje RECIBIDO=[
+Class:			com.sun.messaging.jmq.jmsclient.ObjectMessageImpl
+getJMSMessageID():	ID:38-192.168.56.1(eb:a2:56:ec:6a:ad)-49956-1486119601063
+getJMSTimestamp():	1486119601063
+getJMSCorrelationID():	null
+JMSReplyTo:		null
+JMSDestination:		JAADQueue
+getJMSDeliveryMode():	PERSISTENT
+getJMSRedelivered():	false
+getJMSType():		null
+getJMSExpiration():	0
+getJMSPriority():	4
+Properties:		null]
+06:00:52,166 [main      ] INFO  (jms.JMSReceiver:44) Profesor RECIBIDO=[Profesor [nombre=Liz, dni=003]]
+06:01:06,275 [main      ] INFO  (jms.JMSReceiver:40) Mensaje RECIBIDO=[null]
+06:01:06,280 [main      ] ERROR (jms.JMSReceiver:55) Error al procesar la metadata
+java.lang.NullPointerException
+	at edu.cibertec.jaad.jms.JMSReceiver.main(JMSReceiver.java:42)
